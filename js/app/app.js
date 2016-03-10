@@ -7,7 +7,7 @@ var roomApp = angular.module('roomApp', [
 
 roomApp.config(function($stateProvider, $urlRouterProvider) {
     
-    $urlRouterProvider.otherwise('/room'); // Mọi đường dẫn không hợp lệ đều được chuyển đến state home
+    $urlRouterProvider.otherwise('/home'); // Mọi đường dẫn không hợp lệ đều được chuyển đến state home
     
     $stateProvider
        
