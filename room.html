@@ -1,0 +1,54 @@
+		<div class="container "data-ng-controller="ListProductCtrl">
+			<div class="embed-responsive embed-responsive-16by9">
+				<img width="100%"  height="500px" class="container, embed-responsive-item center" src="images/test/KingRoom.jpg"  ></img>
+	        </div>
+	        <div>
+	        	<h1 style="font-size: 30px" class="">OVERVIEW</h1>
+	        </div>
+	        <div>
+	        	<div class="col-md-6">
+	        		<fieldset>
+	        			<p style="font-size: 20px">Utilities
+	        			<div class="col-md-6">
+	        				<ul>
+		        				<li>Beds
+								<li>Fridge
+		                        <li>Color television
+		                        <li>Air-conditioner
+		                        <li>Bathtub
+		                        <li>Seating furniture
+		        			</ul>
+	        			</div>
+	        			<div class="col-md-6" data-ng-repeat="roomutilitie in detailsutilities">
+	        				<div ui-view>
+	        					<ul my-directive data"roomutilitie">
+	        					
+	        					</ul><!-- /.ul -->
+	        				</div><!-- /ui-view -->
+	        			</div><!-- /.div col-md-6 -->
+	        		</fieldset><!-- /.fieldset -->
+	        	</div>
+	        	<div class="col-md-6">
+	        		<fieldset>
+	        			<p style="font-size: 20px">Relax</p>
+	        			<div class="col-md-6">
+	        				<ul>
+		        				<li>Pool
+								<li>Sauna
+		                        <li>Tennis
+		                        <li>Karaoke
+		                        <li>Mini Golf
+		                        <li>Gym
+		        			</ul>
+	        			</div><!-- /.div col-md-6 -->
+	        			<div class="col-md-6" data-ng-repeat="roomrelax in detailsrelax">
+	        				<div ui-view>
+	        					<ul my-directive data"roomrelax">
+	        					
+	        					</ul><!-- /.ul -->
+	        				</div><!-- /ui-view -->
+	        			</div><!-- /.col-md-6 -->
+	        		</fieldset><!-- /fieldset -->
+	        	</div><!-- /.col-md-6 -->
+	        </div><!-- /.div -->
+	    </div><!-- /.container -->

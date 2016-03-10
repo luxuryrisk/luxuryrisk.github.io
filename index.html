@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
+<![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
+<![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+	<title>Luxury Hotel</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+<!-- 
+Concept Template 
+http://www.templatemo.com/tm-397-concept 
+-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- CSS Bootstrap & Custom -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/templatemo_misc.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="sass/main.css">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+
+</head>
+<body data-ng-app="roomApp">
+	<div class="site-header">
+		<div class="main-navigation">
+                <div class="responsive_menu">
+                    <ul>
+                        <li><a runat="server" ui-sref="home">Luxury</a></li>
+                        <li><a runat="server" ui-sref="product">Rooms</a></li>
+                        <li><a runat="server" ui-sref="service">Services</a></li>
+                        <li><a runat="server" ui-sref="aboutus">About Us</a></li>
+                        <li><a runat="server" ui-sref="contactus">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 responsive-menu">
+                            <a href="#" class="menu-toggle-btn">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div> <!-- /.col-md-12 -->
+                        <div class="col-md-12 main_menu">
+                            <ul>
+                                <li><a ui-sref="home">Luxury</a></li>
+                                <li><a runat="server" ui-sref="product">Rooms</a></li>
+                                <li><a runat="server" ui-sref="service">Services</a></li>
+                                <li><a runat="server" ui-sref="aboutus">About Us</a></li>
+                                <li><a runat="server" ui-sref="contactus">Contact Us</a></li>
+                            </ul>
+                        </div> <!-- /.col-md-12 -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+        </div> <!-- /.main-navigation -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<a href="#" class="templatemo_logo">
+						<h1>LUXURY HOTEL</h1>
+					</a> <!-- /.logo -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</div> <!-- /.site-header -->
+	
+	<tbody>
+		<div ui-view>
+			
+		</div><!--/ui-view-->
+	</tbody>
+		
+
+	<div id="templatemo_footer">
+		<div class="container">
+				<div class="col-md-4">
+					<h1 style="font-size: 30px">In Room</h1>
+					<nav>
+                        <ul>
+                            <p><li><a href="#">Rediffusion and Library</a></li>
+                            <li><a href="#">Color TV</a></li>
+                            <li><a href="#">Video Con</a></li>
+                            <li><a href="#">Mini-bar</a></li>
+                            <li><a href="#">Color TV</a></li>
+                            <li><a href="#">Rediffusion</a></li>
+                            <li><a href="#">Color TV</a></li>
+                            <li><a href="#">Video Con</a></li>
+                            <li><a href="#">Video Con</a></li>
+                        </ul>
+                    </nav>
+				</div>
+				<div class="col-md-4">
+		            <h1 style="font-size: 30px">Contact Us</h1>
+		            <p>
+		                <a>We love to hear from you! Please call, click or come on over.
+		            </p>
+		            <br>
+		            <p>
+		                <ul>
+                          	<li>Tel: 010-020-0340</li>
+                            <li>Email: info@company.com</li>
+                        </ul>
+		            </p>
+		            <br>
+		            <p>241 Dinh Tien Hoang, Buon Ma Thuot, DakLak, VietNam</p>
+				</div>
+		</div>
+
+		</div>
+		
+	</div>
+
+	<div id="templatemo_footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>Copyright &copy; 2016 || Designed And Fixed by <a href="https://www.facebook.com/lehoangson.ho">Hookusai</a> || <a href="http://www.csc.com/vn_vn">CSC Fresher Project</a></p>
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</div> <!-- /.templatemo_footer -->
+
+	<!-- Scripts -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/modernizr.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/tabs.js"></script>
+	<script src="js/jquery.lightbox.js"></script>
+	<script src="js/templatemo_custom.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-ui-router.min.js"></script>
+	<script src="js/app/app.js"></script>
+	<script src="controllers/controllers.js"></script>
+</body>
+</html>
